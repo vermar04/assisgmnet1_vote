@@ -1,0 +1,178 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2023.07.18 18:53:51 =~=~=~=~=~=~=~=~=~=~=~=
+[root@ip-172-31-34-5 ~]# pwdrm -rf example-voting-app
+[root@ip-172-31-34-5 ~]#ls -lrthgit clone https://github.com/ashishrpandey/example-voting-appcd $homegit clone https://github.com/ashishrpandey/example-voting-app
+Cloning into 'example-voting-app'...
+remote: Enumerating objects: 494, done.
+Receiving objects:   0% (1/494)Receiving objects:   1% (5/494)Receiving objects:   2% (10/494)Receiving objects:   3% (15/494)Receiving objects:   4% (20/494)Receiving objects:   5% (25/494)Receiving objects:   6% (30/494)Receiving objects:   7% (35/494)Receiving objects:   8% (40/494)Receiving objects:   9% (45/494)Receiving objects:  10% (50/494)Receiving objects:  11% (55/494)Receiving objects:  12% (60/494)Receiving objects:  13% (65/494)Receiving objects:  14% (70/494)Receiving objects:  15% (75/494)Receiving objects:  16% (80/494)Receiving objects:  17% (84/494)Receiving objects:  18% (89/494)Receiving objects:  19% (94/494)Receiving objects:  20% (99/494)Receiving objects:  21% (104/494)Receiving objects:  22% (109/494)Receiving objects:  23% (114/494)Receiving objects:  24% (119/494)Receiving objects:  25% (124/494)Receiving objects:  26% (129/494)Receiving objects:  27% (134/494)Receiving objects:  28% (139/494)Receiving objects:  29% (144/494)Receiving objects:  30% (149/494)Receiving objects:  31% (154/494)Receiving objects:  32% (159/494)Receiving objects:  33% (164/494)Receiving objects:  34% (168/494)Receiving objects:  35% (173/494)Receiving objects:  36% (178/494)Receiving objects:  37% (183/494)Receiving objects:  38% (188/494)Receiving objects:  39% (193/494)Receiving objects:  40% (198/494)Receiving objects:  41% (203/494)Receiving objects:  42% (208/494)Receiving objects:  43% (213/494)Receiving objects:  44% (218/494)Receiving objects:  45% (223/494)Receiving objects:  46% (228/494)Receiving objects:  47% (233/494)Receiving objects:  48% (238/494)Receiving objects:  49% (243/494)Receiving objects:  50% (247/494)Receiving objects:  51% (252/494)Receiving objects:  52% (257/494)Receiving objects:  53% (262/494)Receiving objects:  54% (267/494)Receiving objects:  55% (272/494)Receiving objects:  56% (277/494)Receiving objects:  57% (282/494)Receiving objects:  58% (287/494)Receiving objects:  59% (292/494)Receiving objects:  60% (297/494)Receiving objects:  61% (302/494)Receiving objects:  62% (307/494)Receiving objects:  63% (312/494)Receiving objects:  64% (317/494)Receiving objects:  65% (322/494)remote: Total 494 (delta 0), reused 0 (delta 0), pack-reused 494
+Receiving objects:  66% (327/494)Receiving objects:  67% (331/494)Receiving objects:  68% (336/494)Receiving objects:  69% (341/494)Receiving objects:  70% (346/494)Receiving objects:  71% (351/494)Receiving objects:  72% (356/494)Receiving objects:  73% (361/494)Receiving objects:  74% (366/494)Receiving objects:  75% (371/494)Receiving objects:  76% (376/494)Receiving objects:  77% (381/494)Receiving objects:  78% (386/494)Receiving objects:  79% (391/494)Receiving objects:  80% (396/494)Receiving objects:  81% (401/494)Receiving objects:  82% (406/494)Receiving objects:  83% (411/494)Receiving objects:  84% (415/494)Receiving objects:  85% (420/494)Receiving objects:  86% (425/494)Receiving objects:  87% (430/494)Receiving objects:  88% (435/494)Receiving objects:  89% (440/494)Receiving objects:  90% (445/494)Receiving objects:  91% (450/494)Receiving objects:  92% (455/494)Receiving objects:  93% (460/494)Receiving objects:  94% (465/494)Receiving objects:  95% (470/494)Receiving objects:  96% (475/494)Receiving objects:  97% (480/494)Receiving objects:  98% (485/494)Receiving objects:  99% (490/494)Receiving objects: 100% (494/494)Receiving objects: 100% (494/494), 236.18 KiB | 7.87 MiB/s, done.
+Resolving deltas:   0% (0/179)Resolving deltas:   1% (2/179)Resolving deltas:   2% (4/179)Resolving deltas:   3% (6/179)Resolving deltas:   4% (8/179)Resolving deltas:   5% (9/179)Resolving deltas:   6% (11/179)Resolving deltas:   7% (13/179)Resolving deltas:   8% (15/179)Resolving deltas:   9% (17/179)Resolving deltas:  10% (18/179)Resolving deltas:  11% (20/179)Resolving deltas:  12% (22/179)Resolving deltas:  13% (24/179)Resolving deltas:  14% (26/179)Resolving deltas:  15% (27/179)Resolving deltas:  16% (29/179)Resolving deltas:  17% (31/179)Resolving deltas:  18% (33/179)Resolving deltas:  19% (35/179)Resolving deltas:  20% (36/179)Resolving deltas:  21% (38/179)Resolving deltas:  22% (40/179)Resolving deltas:  23% (42/179)Resolving deltas:  24% (43/179)Resolving deltas:  25% (45/179)Resolving deltas:  26% (47/179)Resolving deltas:  27% (49/179)Resolving deltas:  28% (51/179)Resolving deltas:  29% (52/179)Resolving deltas:  30% (54/179)Resolving deltas:  31% (56/179)Resolving deltas:  32% (58/179)Resolving deltas:  33% (60/179)Resolving deltas:  34% (61/179)Resolving deltas:  35% (63/179)Resolving deltas:  36% (65/179)Resolving deltas:  37% (67/179)Resolving deltas:  38% (69/179)Resolving deltas:  39% (70/179)Resolving deltas:  40% (72/179)Resolving deltas:  41% (74/179)Resolving deltas:  42% (76/179)Resolving deltas:  43% (77/179)Resolving deltas:  44% (79/179)Resolving deltas:  45% (81/179)Resolving deltas:  46% (83/179)Resolving deltas:  47% (85/179)Resolving deltas:  48% (86/179)Resolving deltas:  49% (88/179)Resolving deltas:  50% (90/179)Resolving deltas:  51% (92/179)Resolving deltas:  52% (94/179)Resolving deltas:  53% (95/179)Resolving deltas:  54% (97/179)Resolving deltas:  55% (99/179)Resolving deltas:  56% (101/179)Resolving deltas:  57% (103/179)Resolving deltas:  58% (104/179)Resolving deltas:  59% (106/179)Resolving deltas:  60% (108/179)Resolving deltas:  61% (110/179)Resolving deltas:  62% (111/179)Resolving deltas:  63% (113/179)Resolving deltas:  64% (115/179)Resolving deltas:  65% (117/179)Resolving deltas:  66% (119/179)Resolving deltas:  67% (120/179)Resolving deltas:  68% (122/179)Resolving deltas:  69% (124/179)Resolving deltas:  70% (126/179)Resolving deltas:  71% (128/179)Resolving deltas:  72% (129/179)Resolving deltas:  73% (131/179)Resolving deltas:  74% (133/179)Resolving deltas:  75% (135/179)Resolving deltas:  76% (137/179)Resolving deltas:  77% (138/179)Resolving deltas:  78% (140/179)Resolving deltas:  79% (142/179)Resolving deltas:  80% (144/179)Resolving deltas:  81% (145/179)Resolving deltas:  82% (147/179)Resolving deltas:  83% (149/179)Resolving deltas:  84% (151/179)Resolving deltas:  85% (153/179)Resolving deltas:  86% (154/179)Resolving deltas:  87% (156/179)Resolving deltas:  88% (158/179)Resolving deltas:  89% (160/179)Resolving deltas:  90% (162/179)Resolving deltas:  91% (163/179)Resolving deltas:  92% (165/179)Resolving deltas:  93% (167/179)Resolving deltas:  94% (169/179)Resolving deltas:  95% (171/179)Resolving deltas:  96% (172/179)Resolving deltas:  97% (174/179)Resolving deltas:  98% (176/179)Resolving deltas:  99% (178/179)Resolving deltas: 100% (179/179)Resolving deltas: 100% (179/179), done.
+[root@ip-172-31-34-5 ~]# ls -lrth
+total 4.0K
+drwxr-xr-x 20 root root 4.0K Jul 13 11:43 kubernetes-training
+drwxr-xr-x  8 root root  335 Jul 18 13:24 example-voting-app
+[root@ip-172-31-34-5 ~]# cd example-voting-app
+[root@ip-172-31-34-5 example-voting-app]# 3. cd  /root/example-voting-app/k8s-specifications
+[root@ip-172-31-34-5 k8s-specifications]# 4. kubectl apply -f .
+deployment.apps/db created
+service/db created
+deployment.apps/redis created
+service/redis created
+deployment.apps/result created
+service/result created
+deployment.apps/vote created
+service/vote created
+deployment.apps/worker created
+[root@ip-172-31-34-5 k8s-specifications]# kubectl get Lall
+NAME                          READY   STATUS    RESTARTS   AGE
+pod/db-b54cd94f4-9xzg9        1/1     Running   0          12s
+pod/redis-868d64d78-8nkh2     1/1     Running   0          12s
+pod/result-5d57b59f4b-zbdkd   1/1     Running   0          12s
+pod/vote-94849dc97-j4kmw      1/1     Running   0          12s
+pod/worker-dd46d7584-nzmlj    1/1     Running   0          12s
+
+NAME                 TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db           ClusterIP   10.105.114.173   <none>        5432/TCP         12s
+service/kubernetes   ClusterIP   10.96.0.1        <none>        443/TCP          3m14s
+service/redis        ClusterIP   10.99.130.47     <none>        6379/TCP         12s
+service/result       NodePort    10.99.36.165     <none>        5001:31001/TCP   12s
+service/vote         NodePort    10.105.205.95    <none>        5000:31000/TCP   12s
+
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/db       1/1     1            1           12s
+deployment.apps/redis    1/1     1            1           12s
+deployment.apps/result   1/1     1            1           12s
+deployment.apps/vote     1/1     1            1           12s
+deployment.apps/worker   1/1     1            1           12s
+
+NAME                                DESIRED   CURRENT   READY   AGE
+replicaset.apps/db-b54cd94f4        1         1         1       12s
+replicaset.apps/redis-868d64d78     1         1         1       12s
+replicaset.apps/result-5d57b59f4b   1         1         1       12s
+replicaset.apps/vote-94849dc97      1         1         1       12s
+replicaset.apps/worker-dd46d7584    1         1         1       12s
+[root@ip-172-31-34-5 k8s-specifications]# kubectl delete vote-94849dc97-j4kmw
+error: the server doesn't have a resource type "vote-94849dc97-j4kmw"
+[root@ip-172-31-34-5 k8s-specifications]# kubectl get po
+NAME                      READY   STATUS    RESTARTS   AGE
+db-b54cd94f4-9xzg9        1/1     Running   0          10m
+redis-868d64d78-8nkh2     1/1     Running   0          10m
+result-5d57b59f4b-zbdkd   1/1     Running   0          10m
+vote-94849dc97-j4kmw      1/1     Running   0          10m
+worker-dd46d7584-nzmlj    1/1     Running   0          10m
+[root@ip-172-31-34-5 k8s-specifications]# kubectl delete vote-94849dc97-j4kmw
+error: the server doesn't have a resource type "vote-94849dc97-j4kmw"
+[root@ip-172-31-34-5 k8s-specifications]# kubectl delete vote-94849dc97-j4kmwpod/redis-868d64d78-8nkh2kubectl delete pod/redis-868d64d78-8nkh2pod/vote-94849dc97-j4kmw
+pod "vote-94849dc97-j4kmw" deleted
+[root@ip-172-31-34-5 k8s-specifications]# kubectl delete pod/vote-94849dc97-j4kmwvote-94849dc97-j4kmwget po
+NAME                      READY   STATUS    RESTARTS   AGE
+db-b54cd94f4-9xzg9        1/1     Running   0          11m
+redis-868d64d78-8nkh2     1/1     Running   0          11m
+result-5d57b59f4b-zbdkd   1/1     Running   0          11m
+vote-94849dc97-hpfvg      1/1     Running   0          11s
+worker-dd46d7584-nzmlj    1/1     Running   0          11m
+[root@ip-172-31-34-5 k8s-specifications]# ls -lrth
+total 36K
+-rw-r--r-- 1 root root 292 Jul 18 13:24 worker-deployment.yaml
+-rw-r--r-- 1 root root 192 Jul 18 13:24 vote-service.yaml
+-rw-r--r-- 1 root root 289 Jul 18 13:24 vote-deployment.yaml
+-rw-r--r-- 1 root root 195 Jul 18 13:24 result-service.yaml
+-rw-r--r-- 1 root root 299 Jul 18 13:24 result-deployment.yaml
+-rw-r--r-- 1 root root 152 Jul 18 13:24 redis-service.yaml
+-rw-r--r-- 1 root root 402 Jul 18 13:24 redis-deployment.yaml
+-rw-r--r-- 1 root root 146 Jul 18 13:24 db-service.yaml
+-rw-r--r-- 1 root root 401 Jul 18 13:24 db-deployment.yaml
+[root@ip-172-31-34-5 k8s-specifications]# vim vote-deployment.yaml
+"vote-deployment.yaml" 17L, 289B  zz           apiVersion: apps/v1
+kind: Deploymentmetadata:name: vote
+spec:
+  selector:
+    matchLabels:app: vote
+  replicas: 1
+  template:
+    metadata:labels:app: vote
+    spec:containers:- image: dockersamples/examplevotingapp_vote:beforename: vote[root@ip-172-31-34-5 ~]# kubectl get all
+NAME                          READY   STATUS    RESTARTS   AGE
+pod/db-b54cd94f4-9xzg9        1/1     Running   0          37m
+pod/redis-868d64d78-8nkh2     1/1     Running   0          37m
+pod/result-5d57b59f4b-zbdkd   1/1     Running   0          37m
+pod/vote-94849dc97-hpfvg      1/1     Running   0          26m
+pod/worker-dd46d7584-nzmlj    1/1     Running   0          37m
+
+NAME                 TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db           ClusterIP   10.105.114.173   <none>        5432/TCP         37m
+service/kubernetes   ClusterIP   10.96.0.1        <none>        443/TCP          40m
+service/redis        ClusterIP   10.99.130.47     <none>        6379/TCP         37m
+service/result       NodePort    10.99.36.165     <none>        5001:31001/TCP   37m
+service/vote         NodePort    10.105.205.95    <none>        5000:31000/TCP   37m
+
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/db       1/1     1            1           37m
+deployment.apps/redis    1/1     1            1           37m
+deployment.apps/result   1/1     1            1           37m
+deployment.apps/vote     1/1     1            1           37m
+deployment.apps/worker   1/1     1            1           37m
+
+NAME                                DESIRED   CURRENT   READY   AGE
+replicaset.apps/db-b54cd94f4        1         1         1       37m
+replicaset.apps/redis-868d64d78     1         1         1       37m
+replicaset.apps/result-5d57b59f4b   1         1         1       37m
+replicaset.apps/vote-94849dc97      1         1         1       37m
+replicaset.apps/worker-dd46d7584    1         1         1       37m
+[root@ip-172-31-34-5 ~]# kubectl delete pod/worker-dd46d7584-nzmlj
+pod "worker-dd46d7584-nzmlj" deleted
+[root@ip-172-31-34-5 ~]# kubectl delete pod/worker-dd46d7584-nzmlj kubectl get allpo po
+NAME                      READY   STATUS    RESTARTS   AGE
+db-b54cd94f4-9xzg9        1/1     Running   0          38m
+redis-868d64d78-8nkh2     1/1     Running   0          38m
+result-5d57b59f4b-zbdkd   1/1     Running   0          38m
+vote-94849dc97-hpfvg      1/1     Running   0          27m
+worker-dd46d7584-xfx4c    1/1     Running   0          19s
+[root@ip-172-31-34-5 ~]# [root@ip-172-31-34-5 ~]#  kubectl get po
+NAME                      READY   STATUS    RESTARTS   AGE
+db-b54cd94f4-9xzg9        1/1     Running   0          44m
+redis-868d64d78-8nkh2     1/1     Running   0          44m
+result-5d57b59f4b-zbdkd   1/1     Running   0          44m
+vote-94849dc97-hpfvg      1/1     Running   0          33m
+worker-dd46d7584-xfx4c    1/1     Running   0          6m49s
+[root@ip-172-31-34-5 ~]#  kubectl get pokubectl delete pod/worker-dd46d7584-nzmlj
+[root@ip-172-31-34-5 ~]# kubectl get all
+kubectl get all
+NAME                          READY   STATUS    RESTARTS   AGE
+pod/db-b54cd94f4-9xzg9        1/1     Running   0          45m
+pod/redis-868d64d78-8nkh2     1/1     Running   0          45m
+pod/result-5d57b59f4b-zbdkd   1/1     Running   0          45m
+pod/vote-94849dc97-hpfvg      1/1     Running   0          34m
+pod/worker-dd46d7584-xfx4c    1/1     Running   0          7m
+
+NAME                 TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db           ClusterIP   10.105.114.173   <none>        5432/TCP         45m
+service/kubernetes   ClusterIP   10.96.0.1        <none>        443/TCP          48m
+service/redis        ClusterIP   10.99.130.47     <none>        6379/TCP         45m
+service/result       NodePort    10.99.36.165     <none>        5001:31001/TCP   45m
+service/vote         NodePort    10.105.205.95    <none>        5000:31000/TCP   45m
+
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/db       1/1     1            1           45m
+deployment.apps/redis    1/1     1            1           45m
+deployment.apps/result   1/1     1            1           45m
+deployment.apps/vote     1/1     1            1           45m
+deployment.apps/worker   1/1     1            1           45m
+
+NAME                                DESIRED   CURRENT   READY   AGE
+replicaset.apps/db-b54cd94f4        1         1         1       45m
+replicaset.apps/redis-868d64d78     1         1         1       45m
+replicaset.apps/result-5d57b59f4b   1         1         1       45m
+replicaset.apps/vote-94849dc97      1         1         1       45m
+replicaset.apps/worker-dd46d7584    1         1         1       45m
+[root@ip-172-31-34-5 ~]#  kubectl get allpokubectl delete kubectl get allkubectl delete popod/db-b54cd94f4-9xzg9
+pod "db-b54cd94f4-9xzg9" deleted
+
+[root@ip-172-31-34-5 ~]# 
+[root@ip-172-31-34-5 ~]# kubectl delete pod/db-b54cd94f4-9xzg9 kubectl get allpo
+NAME                      READY   STATUS    RESTARTS   AGE
+db-b54cd94f4-h48hn        1/1     Running   0          37s
+redis-868d64d78-8nkh2     1/1     Running   0          45m
+result-5d57b59f4b-zbdkd   1/1     Running   1          45m
+vote-94849dc97-hpfvg      1/1     Running   0          34m
+worker-dd46d7584-xfx4c    1/1     Running   1          7m47s
+[root@ip-172-31-34-5 ~]# 
